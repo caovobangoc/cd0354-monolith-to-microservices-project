@@ -15,7 +15,7 @@ spec:
         app: udagram-reverseproxy
     spec:
       containers:
-      - image: chautc/udagram-reverseproxy:v3
+      - image: chautc/udagram-reverseproxy:v4
         name: udagram-reverseproxy
         ports:
         - containerPort: 8080

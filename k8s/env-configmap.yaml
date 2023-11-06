@@ -5,8 +5,10 @@ data:
   AWS_PROFILE: default
   AWS_REGION: us-east-1
   JWT_SECRET: testing
-  POSTGRESS_DB: postgres
-  POSTGRESS_HOST: postgres.c34im1adhg9z.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100  
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: postgres.c34im1adhg9z.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  POSTGRES_USERNAME: postgres
+  POSTGRES_PASSWORD: postgres
 metadata:
   name: env-config

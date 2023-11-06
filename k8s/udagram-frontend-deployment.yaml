@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: chautc/udagram-frontend:v3
+      - image: chautc/udagram-frontend:v4
         name: udagram-frontend
         ports:
         - containerPort: 80
